@@ -1,16 +1,14 @@
-import java.util.Arrays;
-import java.util.Scanner;
-
-public class Practice {
+public class FindSecondLargestinArray {
     public static int findSecondLargest(int [] arr){
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
-
-        for(int num: arr){
-            if(num > largest){
+        
+        // let's loop through the array
+        for(int num : arr){
+            if(num>largest){
                 secondLargest = largest;
                 largest = num;
-            } else if (num>secondLargest && num != largest) {
+            } else if (num>secondLargest && num!=largest) {
                 secondLargest = num;
             }
         }
@@ -18,13 +16,13 @@ public class Practice {
     }
 
     public static void main(String[] args) {
-        int [] arr = {9, 12, 53, 19, 77, 81};
+        int [] arr = {1,2,3,4,7,5};
         int secondLargest = findSecondLargest(arr);
 
         if(secondLargest != Integer.MIN_VALUE){
-            System.out.println("The second largest in the array is: " + secondLargest);
-        } else {
-            System.out.println("There's no second largest ");
+            System.out.println("The second largest number in the array is: " + secondLargest);
+        } else{
+            System.out.println("There's no second largest number in the array!");
         }
     }
 }

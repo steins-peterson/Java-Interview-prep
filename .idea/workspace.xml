@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a50be18-8a78-40aa-b172-9dfd91028317" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview Prep.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnagramCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CharacterRepeatition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RemoveOccurenceOfACharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SameNumbersInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumOfAllElementsInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VowelnConsonantCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FibonacciNumberAtIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindSecondLargestinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberSwapperWithoutThirdVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RemoveOccurenceOfACharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveOccurenceOfACharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,30 +38,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharacterRepeatition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveOccurenceOfACharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseAString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfAllElementsInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VowelnConsonantCheck.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/peter/IdeaProjects/Interview Prep/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnagramCheck.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.CharacterRepeatition.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FibonacciNumberAtIndex.executor": "Run",
+    "Application.FibonacciSeries.executor": "Run",
+    "Application.FindSecondLargestinArray.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NumberSwapperWithoutThirdVariable.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.PalindromeNumber.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.PrimeChecker.executor": "Run",
+    "Application.RemoveOccurenceOfACharacter.executor": "Run",
+    "Application.ReverseAString.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.SumOfAllElementsInArray.executor": "Run",
+    "Application.VowelnConsonantCheck.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/peter/IdeaProjects/Interview Prep/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.updates"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
